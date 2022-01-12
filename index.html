@@ -1,0 +1,282 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, inital-scale=1.0">
+            <link rel="stylesheet" href="mystyle.css">
+        </head>
+            <body>
+           <!-- PARTIE YOHAN -->
+           <header>
+            <nav role="navigation">
+                <div class="desktop">
+                    <img id="logo" src="picto/Logo.png" alt="Erreur chargement logo" >
+                    <div class="main">
+                        <a href="#">HOME</a>
+                        <a href="#">SHOP</a>
+                        <a href="#">MAGAZINE</a>
+                    </div>
+                    <div class="logincart">
+                        <a href="#"><img src="picto/Cart Button.png" alt="Erreur chargement Cart"></a>
+                        <a href="#">LOGIN</a>
+                    </div>
+                    </ul>
+                </div>
+                <div class="mobile">
+                    <img id="logo" src="picto/Logo.png" alt="Erreur chargement logo" >
+                    <div class="cart">
+                        <a href="#"><img src="picto/Cart Button.png" alt="Erreur chargement Cart"></a>
+                    </div>
+                    <div class="menu-wrap">
+                        <input type="checkbox" id="toggler">
+                        <div class="hamburger"><div></div></div>
+                        <div class="menu">
+                            <div>
+                                <div>
+                                    <ul>
+                                   <li><a href="#">HOME</a></li>
+                                   <li><a href="#">SHOP</a></li>
+                                   <li><a href="#">MAGAZINE</a></li>
+                                   <li><a href="#">LOGIN</a></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="search">
+            <div class="submit_input">
+        <button type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+        </button>
+        <input type="text" placeholder="Figurine Kévin"\>
+    </div>
+        <div class="select">
+            <select>
+                <option value="0">Best Match</option>
+                <option value="1">Offers</option>
+                <option value="2">Ratings</option>
+                <option value="3">Trends</option>
+            </select>
+        </div>
+        </div>
+        <!-- FIN PARTIE YOHAN-->
+                
+
+        <div class = wrapper>
+            <div class="filters-container">
+                <div class="filter-header">
+                    <label>FILTER BY</label>
+                    <br/>
+                </div>
+
+                <div class="filter-header-expandable">
+                    <label for="expand-toggle">Filters</label>                                    
+                    <div id="filter-header-arrow"></div>
+                </div>
+
+                <input type="checkbox" id="expand-toggle"/>
+                <div class="expandable">
+                    <div class="filter-row">
+                        <label>Anime</label>
+                        <select>
+                            <option></option>
+                            <option>Dragon Ball</option>
+                            <option>One Piece</option>
+                            <option>Naruto</option>
+                            <option>Hunter x Hunter</option>
+                        </select>
+                    </div>
+                    <div class="separator"></div>                    
+                    <div class="filter-row">
+                        <label>Size</label>
+                        <select>
+                            <option></option>
+                            <option>10-20cm</option>
+                            <option>20-30cm</option>
+                            <option>30+</option>
+                        </select>
+                    </div>           
+                    <div class="separator"></div>                    
+                    <div class="filter-row">
+                        <label>Category</label>
+                        <select>
+                            <option></option>
+                            <option>Articulated</option>
+                            <option>Chibi</option>
+                            <option>Action</option>
+                        </select>
+                    </div>           
+                    <div class="separator"></div>                    
+                    <div class="filter-row">
+                        <label>Price Range</label>
+                        <br>
+                    </div>        
+                    <div class="filter-row">
+                        <input id="slider" type="range" min="0" value="50" max="1000" step="10" /> 
+                        <input id="sliderb" type="range" min="0" value="50" max="1000" step="10" />
+                        </div>
+                        <div class="maximini">
+                        <p class="mini_price">0€</p>
+                        <p class="maxi_price">1000€</p>
+                        </div>
+                        
+                </div>
+                <div class="separator_mobile-only"></div>                    
+            </div>
+                    <article>
+                        <img class="image_article" src="IMAGES/figurine_dragonball.jpeg" alt= "Figurine du dragon vert DragonBall Shenron">
+                            <div class = "firstlign">
+                        <h4 class="figurinename">Shenron</h4>
+                        <h5 class="price">95,99€</h5>
+                            </div>
+                            <div class= "secondlign">
+                        <p class="description">FIGURINE HAUTE QUALITE</p>
+                            
+                                <div class="rate">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star.png">
+                            
+                                </div>
+                                <img class= "Add_cart" src="picto/add-to-cart.png">
+                                </div>
+                            
+                    </article>
+                    
+    
+                    <article>
+                        <img class="image_article" src="IMAGES/figurine_girl.jpg" alt = "Figurine sexy fille anime cheveux roses avec katana">
+                        <div class = "firstlign"><h4 class="figurinename">Pink Hair Girl</h4>
+                        <h5 class="price">130,99€</h5></div>
+                        <div class= "secondlign"><p class="description">FIGURINE ACTION COLLECTOR</p>
+                        <div class="rate">
+                                <img src="picto/Star - On.png">
+                                <img src="picto/Star - On.png">
+                                <img src="picto/Star - On.png">
+                                <img src="picto/Star - On.png">
+                                <img src="picto/Star.png">
+                        
+                            </div>
+              
+                            <img class= "Add_cart" src="picto/add-to-cart.png">
+                            </div>
+            
+                    </article>
+    
+                    <article>
+                        <img class="image_article" src="IMAGES/figurine_levi.jpeg" alt="Figurine qualitative Levi SNK blessé">
+                        <div class = "firstlign"><h4 class="figurinename">Levi Combat</h4>
+                        <h5 class="price">159,99€</h5></div>
+                        <div class= "secondlign"><p class="description">FIGURINE ACTION SNK</p>
+                        <div class="rate">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+             
+                        </div>
+                        <img class= "Add_cart" src="picto/add-to-cart.png">
+                    </div>
+                        
+                    </article>
+    
+                    <article>
+                        <img class="image_article" src="IMAGES/figurine_luffy.jpeg" alt = "Figurine amusante de Luffy One Piece qui court">
+                        <div class = "firstlign"><h4 class="figurinename">Luffy en Voyage</h4>
+                        <h5 class="price">99,99€</h5></div>
+                        <div class= "secondlign"><p class="description">FIGURINE RARE ONE PIECE</p>
+                        <div class="rate">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star.png">
+                        </div>
+                        <img class= "Add_cart" src="picto/add-to-cart.png">
+                        
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img class="image_article" src="IMAGES/figurine_Miku.jpg" alt = "Figurine Mikue Hatsune cheveux bleus sexy">
+                        <div class = "firstlign"><h4 class="figurinename">Miku Hatsune</h4>
+                        <h5 class="price">123,99€</h5></div>
+                        <div class= "secondlign"><p class="description">MIKU ET SES ROLLERS</p>
+                        <div class="rate">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star.png">
+                        </div>
+                        <img class= "Add_cart" src="picto/add-to-cart.png">
+                        
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img class="image_article" src="IMAGES/figurine_myheroacademia.jpg" alt = "Figurine My Heroe Academia Deku Izuku Midoriya">
+                        <div class = "firstlign"><h4 class="figurinename">Izuku Midoriya</h4>
+                        <h5 class="price">115,99€</h5></div>
+                        <div class= "secondlign"><p class="description">FIGURINE MY HERO ACADEMIA</p>
+                        <div class="rate">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star.png">
+                        </div>
+                        <img class= "Add_cart" src="picto/add-to-cart.png">
+                        </div>
+                        
+                    </article>
+    
+                    <article>
+                       <img class="image_article" src="IMAGES/figurine_packdragon.jpg" alt = "Pack de 6 figurines chibi kawai DragonBall">
+                        <div class = "firstlign">
+                            <h4 class="figurinename">DragonBall</h4>
+                        <h5 class="price">40,99€</h5>
+                        </div>
+                        <div class= "secondlign">
+                            <p class="description">PACK CHIBI DRAGONBALL</p>
+                        
+                        
+                        <div class="rate">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star - On.png">
+                            <img src="picto/Star.png">
+                        </div>
+                        <img class= "Add_cart" src="picto/add-to-cart.png">
+                        </div>
+                        
+                        
+                    </article>
+                </div>
+                </body>
+            <footer>
+                <ul class="navpage">
+                    <li class = "page"><a class ="chiffre" class="Active" href="#">1</a></li>
+                    <li class = "page"><a class ="chiffre" href="#">2</a></li>
+                    <li class = "page"><a class ="chiffre" href="#">3</a></li>
+                    <li class = "page"><a class ="chiffre" href="#">4</a></li>
+                    <li class = "page"><a class ="chiffre" href="#">5</a></li>
+                    <div class = "big_number"></class><li class = "page"><a class ="chiffre" href="#">6</a></li></div>
+                    <div class = "big_number"><li class = "page"><a class ="chiffre" href="#">7</a></li></div>
+                    <div class = "big_number"><li class = "page"><a class ="chiffre" href="#">8</a></li></div>
+                    <div class = "big_number"><li class = "page"><a class ="chiffre" href="#">9</a></li></div>
+                    <div class = "big_number"><li class = "page"><a class ="chiffre" href="#">10</a></li></div>
+                    <div class= "arrowpage"></div><li class = "page"><a class ="chiffre" href="#">></a></li></div>
+                    
+                </ul>
+            </footer>
+        </html>
